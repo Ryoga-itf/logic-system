@@ -8,13 +8,13 @@ set_property -dict {PACKAGE_PIN D18 IOSTANDARD LVCMOS33} [get_ports {ld[3]}];
 
 set_property -dict {PACKAGE_PIN G15 IOSTANDARD LVCMOS33} [get_ports {sw[0]}];
 set_property -dict {PACKAGE_PIN P15 IOSTANDARD LVCMOS33} [get_ports {sw[1]}];
-set_property -dict {PACKAGE_PIN W13 IOSTANDARD LVCMOS33 } [get_ports {sw[2]}]; 
-set_property -dict {PACKAGE_PIN T16 IOSTANDARD LVCMOS33 } [get_ports {sw[3]}]; 
+set_property -dict { PACKAGE_PIN W13 IOSTANDARD LVCMOS33 } [get_ports {sw[2]}]; 
+set_property -dict { PACKAGE_PIN T16 IOSTANDARD LVCMOS33 } [get_ports {sw[3]}]; 
 
-set_property -dict {PACKAGE_PIN K18 IOSTANDARD LVCMOS33} [get_ports {push}]; # BTN0
-set_property -dict {PACKAGE_PIN P16 IOSTANDARD LVCMOS33} [get_ports {pop}];  # BTN1
-set_property -dict {PACKAGE_PIN K19 IOSTANDARD LVCMOS33} [get_ports {add}]; # BTN2
-#set_property -dict {PACKAGE_PIN Y16 IOSTANDARD LVCMOS33} [get_ports { push_result }]; # BTN3
+set_property -dict {PACKAGE_PIN K18 IOSTANDARD LVCMOS33} [get_ports {push}]; #BTN0
+set_property -dict {PACKAGE_PIN P16 IOSTANDARD LVCMOS33} [get_ports {pop}];  #BTN1
+#set_property -dict { PACKAGE_PIN K19   IOSTANDARD LVCMOS33 } [get_ports { add }];#BTN2
+#set_property -dict { PACKAGE_PIN Y16   IOSTANDARD LVCMOS33 } [get_ports { push_result }];#BTN3
 
 ## RGB LED 5
 set_property -dict {PACKAGE_PIN Y12 IOSTANDARD LVCMOS33} [get_ports {ld_empty}];#T5 green #Y12: blue

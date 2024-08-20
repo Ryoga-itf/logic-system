@@ -167,5 +167,8 @@ xvlog.*
 ## checkpoint files
 *.dcp
 
+## gen
+**/*.gen/*
+
 ## tmp
 tmp/
